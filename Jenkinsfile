@@ -9,7 +9,7 @@ pipeline {
                 echo "Build Master "
             }
         }
-        stage ('Build Dev'){
+        stage ('Build test'){
             when {
                 branch 'test'
             }
