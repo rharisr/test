@@ -15,6 +15,7 @@ pipeline {
             }
             steps {
                  echo 'Build dev '
+                 echo 'Build dev '
             }
         }
     }
